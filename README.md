@@ -14,9 +14,9 @@ Before opening the CSV it was needed to make a connection to the file by using c
 
 ### Resources:
 
-Data source - election_results.csv file is an Excel file with given data.
-Software - Python 3.7.8, Visual Studio Code
-Output - election_results.txt.
+- Data source - election_results.csv file is an Excel file with given data.
+- Software - Python 3.7.8, Visual Studio Code
+- Output - election_results.txt.
         
 
 ### Purpose and Goals:
@@ -46,6 +46,7 @@ This analysis of the election audit could show how we could get the election res
 
 - The analysis started by adding the dependencies. We assigned a variable to load the file from a path. A variable was assigned to save the file to the path.
 ![51](https://user-images.githubusercontent.com/23488019/141694921-a8ee6051-09f7-414b-8e06-d1a7ddd09ffe.PNG)
+
 - We then initialized the total votes counter. Alist was created in order to identify all the candidate names and a dictionary was created for candidate votes. a separate list was created in order to identify all the counties and a dictionary for county votes.
 ![52](https://user-images.githubusercontent.com/23488019/141695078-0ec78cb3-b9a3-45d8-b8d1-0c26a1cbbccd.PNG)
 
