@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Overview of Election Audit: 
-Tom and I are going to go over the tasks the need to be completed for the election audit and discus the information that is needed by the Colorado Board of Elections. After discussing the goals in detail, Tom is going to show a technique commonly used by programmers to write steps of their code also known as 'Pseudocode'. Pseudocode will make the audit easier to presesnt to nontechnical colleagues and stakeholders.
+Tom and I are going to go over the tasks the need to be completed for the election audit and discus the information that is needed by the Colorado Board of Elections. After discussing the goals in detail, Tom is going to show a technique commonly used by programmers to write steps of their code also known as 'Pseudocode'. Pseudocode will make the audit easier to presesnt to nontechnical colleagues and stakeholders. We will discuss the election taking place in Colorado and calculate results accordingly.
 
 ![1](https://user-images.githubusercontent.com/23488019/141696918-28a6de87-bae7-403c-b6b8-0998a763bcde.PNG)
 
