@@ -9,7 +9,7 @@ In this project i will be assisting Colorado Board Of elections employee Tom, in
 ### Tools Used:
 
 This task is usually done in Excel but Tom's manager wants to know if there is a way to automate the process using Python. If this audit is done successfully with Python then the code written would be used to audit not only other congressional districts but also senatorial districts and local elections. We will be using Python to write algorithms that will assist the confirmation and analysis of election results. Python is one of the most popular programming languages. It's the newest power tool among programming languages. Although it is not new to the programming world, it is quickly becoming the "go-to" language for first-time programmers. The popularity of Python is due to the fact that it emulates the way a human thinks, which facilitates the process of writing code.  
-Before opening the CSV it was needed to make a connection to the file by using computer's directory "path" to that file. Once th file is connected, the contents of the file can be accessed. 
+Before opening the CSV it was needed to make a connection to the file by using computer's directory "path" to that file. Once th file is connected, the contents of the file can be accessed. Gitbash and Github were used to add, commit and push our analysis.
 
 
 ### Resources:
@@ -17,6 +17,7 @@ Before opening the CSV it was needed to make a connection to the file by using c
 - Data source - election_results.csv file is an Excel file with given data.
 - Software - Python 3.7.8, Visual Studio Code
 - Output - election_results.txt.
+- Add,commit,push - GitBash and GitHub
         
 
 ### Purpose and Goals:
@@ -39,7 +40,7 @@ In addition, the following was requested from the Election Commission:
 
 Resources\election_results.csv
 
-3) After connecting to our election_results.csv file, we can now read, process and parse or analyze the data in the file. For this purpose we will use packages or modules, also called as 'Dependencies'. Dependencies help in increasing the functional programming of the ocde or speed and efficiency.
+3) After connecting to our election_results.csv file, we can now read, process and parse or analyze the data in the file. For this purpose we will use packages or modules, also called as 'Dependencies'. Dependencies help in increasing the functional programming of the ocde or speed and efficiency. The next stpes are discussed in the following sections.
 
 ### Analysis of Election Audit:
 This analysis of the election audit could show how we could get the election results out of the csv file contatining the data. We were able to find out the candidate winning the election, most turnout for a county and the specific date as percentage of the poll. Also the specific votes according to each candidate could be found.
@@ -111,15 +112,19 @@ Also, the snapshot of the text file where the results were stored can be seen be
 ## Election-Audit Summary: 
 #### In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 
+In this project we handled the election data and calculated a number of results based on th egiven data in the csv file. The results generated were then saved to a text file. Use of VS code was extremely helpful in finding quick errors because of the color coding.it was easier to use the tabs as well as I could keep track of missing tabs. The script written in this project can be used in a number of other election analysis. The data like number of votes cast by county and candidate, total number of votes and winners could be easily retrieved. Most of the elections might have more than 3 candidates. Hence the code can be modified accordingly. This feature will make the code adaptable to any election and can be used for the analysis. There can be a number of modifications done on this script. A few that can be incorporated are discussed below:
 
+- The script should deal with the case of a tie, as in when two candidates have same vote counts. That would trigger a need to have re election.
 
+- This script can also be used to load an excel file instead of a .csv file. This can be done by editing the filename used in the code above. An extension of .xlsx should be used instead.
+![66](https://user-images.githubusercontent.com/23488019/141696762-48d82d6c-60d2-4d5c-a2da-3d228e6c0783.PNG)
+Here we can change the file format.
 
+- As we found the winners for the election, modifications could be made to get the loosing counts as well. Instead of using the greater than sign, a less than sign could be used for this purpose.
 
+![67](https://user-images.githubusercontent.com/23488019/141696802-95f5c5ec-a7ef-4b34-98a5-d28352d4704e.PNG)
 
-
-
-
-
+Here, we could change to '<' and get the losing county data.
 
 
 
