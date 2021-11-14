@@ -3,8 +3,15 @@
 ## Overview of Election Audit: 
 Tom and I are going to go over the tasks the need to be completed for the election audit and discus the information that is needed by the Colorado Board of Elections. After discussing the goals in detail, Tom is going to show a technique commonly used by programmers to write steps of their code also known as 'Pseudocode'. Pseudocode will make the audit easier to presesnt to nontechnical colleagues and stakeholders.
 
+![1](https://user-images.githubusercontent.com/23488019/141696918-28a6de87-bae7-403c-b6b8-0998a763bcde.PNG)
+PicCourtesy: https://courses.bootcampspot.com/courses/791/pages/3-dot-0-4-welcome-to-pypoll?module_item_id=299561
+
 ### Background:
 In this project i will be assisting Colorado Board Of elections employee Tom, in an election audit of the tabulated results for US Congressional precinct in Colorado. I am tasked with reporting the total number of votes cast, the total no of votes from each candidate, the percentage of votes for each candidate and the winner of the election based on the popular vote. There are 3 primary voting methods that Tom and I will take into account: Mail-in ballots, punch cards and direct recording electronic or DRE counting machines. mail-in ballots are typically hand counted at the central office. Punch cards are collected and then fed into a machine that tabulates vote totals and sends the results to the central office. The memory cards from the DRE machines are sent to the central office and read by a computer. Altogether the votes cast by these 3 methods will determine the final results. After the votes are counted, my job is to generate a vote count report to certify the US Congressional race.
+
+
+![3](https://user-images.githubusercontent.com/23488019/141696967-f6cfccab-556a-47d4-824c-98557eb5e3dc.PNG)
+PicCourtesy: https://courses.bootcampspot.com/courses/791/pages/3-dot-0-4-welcome-to-pypoll?module_item_id=299561
 
 ### Tools Used:
 
@@ -46,15 +53,19 @@ Resources\election_results.csv
 This analysis of the election audit could show how we could get the election results out of the csv file contatining the data. We were able to find out the candidate winning the election, most turnout for a county and the specific date as percentage of the poll. Also the specific votes according to each candidate could be found.
 
 - The analysis started by adding the dependencies. We assigned a variable to load the file from a path. A variable was assigned to save the file to the path.
+
 ![51](https://user-images.githubusercontent.com/23488019/141694921-a8ee6051-09f7-414b-8e06-d1a7ddd09ffe.PNG)
 
 - We then initialized the total votes counter. Alist was created in order to identify all the candidate names and a dictionary was created for candidate votes. a separate list was created in order to identify all the counties and a dictionary for county votes.
+
 ![52](https://user-images.githubusercontent.com/23488019/141695078-0ec78cb3-b9a3-45d8-b8d1-0c26a1cbbccd.PNG)
 
 - For tracking the winning candidate, vote count and percentage, various variables were created. Variables were also created to track the largest county and county voter turnout.
+
 ![53](https://user-images.githubusercontent.com/23488019/141695144-5693fc11-9a2f-4eb6-b13b-ecae57baa481.PNG)
 
 - In order to begin interpreting the data, we first needed to use Visual Studio Code to read the csv and convert it into a list of dictionaries. We then opened the data source (election_data). Here, we created total_votes variable and started counting the total number of votes within the data source.
+
 ![54](https://user-images.githubusercontent.com/23488019/141695225-77a5dd2b-1d2d-41c8-91fb-c6b29665ff03.PNG)
 
 - From each row, candidate names were taken and by using if statement, a list of candidate names was made to start tracking their voter count and thevotes were also being checked.
@@ -65,6 +76,7 @@ This analysis of the election audit could show how we could get the election res
 ![56](https://user-images.githubusercontent.com/23488019/141695424-12bfaf58-7bd3-46f8-bcce-5a72541e5032.PNG)
 
 - A text file was opened and the results were written in it.
+
 ![57](https://user-images.githubusercontent.com/23488019/141695461-1f97639e-b046-40f2-9af0-fe8f3d94884e.PNG)
 
 - Now, a for loop was created so that we can retrieve the county vote count. we can also calculate the percentage of votes for each county. These calculations were printed to the terminal and the results were saved to the text file. An if statement was  used to determine the winning county. Following that the winning county was printed to the terminal and saved to the text file.
@@ -92,6 +104,7 @@ There were total 38,855 votes casted from the Jefferson county. 306,055 votes we
 
 ### 3)Which county had the largest number of votes?
 Denver had the largest turnout of voters, total number of votes coming from Denver were 306,055. 
+
 ![denver](https://user-images.githubusercontent.com/23488019/141696002-f688e567-e8a3-494b-87ed-f74a957d7903.PNG)
 
 ### 4)Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
@@ -101,12 +114,15 @@ Charles Casper Stockham received 85,213 votes which was 23.0% of the total votes
 
 ### 5)Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 The winner of the election was Diana DeGette with 272,892 votes. It was 73.8% of the total votes.
+
 ![17](https://user-images.githubusercontent.com/23488019/141694514-e0d28e83-549e-4541-87c1-969fc54895df.PNG)
 
 The snapshot of the final results can be seen below:
+
 ![final result](https://user-images.githubusercontent.com/23488019/141695981-a936f24d-a73d-42f8-a5b7-f6b98eef9da8.PNG)
 
 Also, the snapshot of the text file where the results were stored can be seen below:
+
 ![text result](https://user-images.githubusercontent.com/23488019/141696071-5a89d65a-0a2e-4937-977e-5f231ecb9c61.PNG)
 
 ## Election-Audit Summary: 
@@ -117,6 +133,7 @@ In this project we handled the election data and calculated a number of results 
 - The script should deal with the case of a tie, as in when two candidates have same vote counts. That would trigger a need to have re election.
 
 - This script can also be used to load an excel file instead of a .csv file. This can be done by editing the filename used in the code above. An extension of .xlsx should be used instead.
+- 
 ![66](https://user-images.githubusercontent.com/23488019/141696762-48d82d6c-60d2-4d5c-a2da-3d228e6c0783.PNG)
 Here we can change the file format.
 
