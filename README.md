@@ -86,8 +86,12 @@ There were 369,711 total votes cast.
 ### 2)Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 There were total 38,855 votes casted from the Jefferson county. 306,055 votes were casted in Denver and 24,801 in Arapahoe.
 
+![countyvotes](https://user-images.githubusercontent.com/23488019/141695992-30197e14-458d-4404-95e4-1b353f1d2e31.PNG)
+
+
 ### 3)Which county had the largest number of votes?
 Denver had the largest turnout of voters, total number of votes coming from Denver were 306,055. 
+![denver](https://user-images.githubusercontent.com/23488019/141696002-f688e567-e8a3-494b-87ed-f74a957d7903.PNG)
 
 ### 4)Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 Charles Casper Stockham received 85,213 votes which was 23.0% of the total votes casted. Diane DeGette received 272,892 votes which was 73.8% of the votes casted. Raymon Anthony Doane received 11,606 votes which was 3.1% of the votes casted.
@@ -97,6 +101,12 @@ Charles Casper Stockham received 85,213 votes which was 23.0% of the total votes
 ### 5)Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 The winner of the election was Diana DeGette with 272,892 votes. It was 73.8% of the total votes.
 ![17](https://user-images.githubusercontent.com/23488019/141694514-e0d28e83-549e-4541-87c1-969fc54895df.PNG)
+
+The snapshot of the final results can be seen below:
+![final result](https://user-images.githubusercontent.com/23488019/141695981-a936f24d-a73d-42f8-a5b7-f6b98eef9da8.PNG)
+
+Also, the snapshot of the text file where the results were stored can be seen below:
+![text result](https://user-images.githubusercontent.com/23488019/141696071-5a89d65a-0a2e-4937-977e-5f231ecb9c61.PNG)
 
 ## Election-Audit Summary: 
 #### In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
